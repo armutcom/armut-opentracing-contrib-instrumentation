@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <Description>Adds OpenTracing instrumentation for System.Data.SqlClient.</Description>
+    <PackageTags>opentracing, distributed-tracing, tracing, sqlclient, sql, connector, netcore</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenTracing.Contrib.Instrumentation\OpenTracing.Contrib.Instrumentation.csproj" />
+  </ItemGroup>
+</Project>

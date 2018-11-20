@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
+    <Description>Adds OpenTracing instrumentation for ASP.NET Core that use the `Microsoft.Extensions.*` stack</Description>
+    <PackageTags>opentracing, distributed-tracing, tracing, netcore, aspnet, aspnetcore, mvc, aspnetcoremvc</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\csharp-netcore\src\OpenTracing.Contrib.NetCore\AspNetCore\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenTracing.Contrib.Instrumentation\OpenTracing.Contrib.Instrumentation.csproj" />
+  </ItemGroup>
+</Project>

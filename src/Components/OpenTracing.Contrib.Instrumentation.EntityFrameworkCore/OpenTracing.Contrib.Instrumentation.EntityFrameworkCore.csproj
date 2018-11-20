@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <Description>Adds OpenTracing instrumentation for Entity Framework Core</Description>
+    <PackageTags>opentracing, distributed-tracing, tracing, netcore, efcore, entity-framework-core, ef, EntityFramework, EntityFrameworkCore</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\csharp-netcore\src\OpenTracing.Contrib.NetCore\EntityFrameworkCore\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenTracing.Contrib.Instrumentation\OpenTracing.Contrib.Instrumentation.csproj" />
+  </ItemGroup>
+</Project>

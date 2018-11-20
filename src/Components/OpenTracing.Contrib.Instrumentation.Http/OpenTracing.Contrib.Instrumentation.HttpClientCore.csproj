@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
+    <Description>Adds OpenTracing instrumentation for HttpClient calls.</Description>
+    <PackageTags>opentracing, distributed-tracing, tracing, httpclient, http, netcore</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\HttpHandlerDiagnosticOptions.cs" />
+    <Compile Include="..\..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\HttpHandlerDiagnostics.cs" />
+    <Compile Include="..\..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\HttpHeadersInjectAdapter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenTracing.Contrib.Instrumentation\OpenTracing.Contrib.Instrumentation.csproj" />
+  </ItemGroup>
+</Project>
