@@ -1,0 +1,4 @@
+[submodule "src/csharp-netcore"]
+	path = src/csharp-netcore
+	url = https://github.com/Blind-Striker/csharp-netcore.git
+	branch = refactoring
