@@ -3,7 +3,10 @@
     <LangVersion>latest</LangVersion>
     <Authors>Armut Teknoloji A.Ş.</Authors>
     <Company>Armut Teknoloji A.Ş.</Company>
-    <Version>0.0.12</Version>
+    <PackageIconUrl>https://github.com/armutcom/armut-opentracing-contrib-instrumentation/blob/master/assets/armut_o_t_02.png?raw=true</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/armutcom/armut-opentracing-contrib-instrumentation</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/armutcom/armut-opentracing-contrib-instrumentation/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>0.12.0</Version>
     <!-- When compiling .NET SDK 2.0 projects targeting .NET 4.x on Mono using 'dotnet build' you -->
     <!-- have to teach MSBuild where the Mono copy of the reference asssemblies is -->
     <TargetIsMono Condition="$(TargetFramework.StartsWith('net4')) and '$(OS)' == 'Unix'">true</TargetIsMono>

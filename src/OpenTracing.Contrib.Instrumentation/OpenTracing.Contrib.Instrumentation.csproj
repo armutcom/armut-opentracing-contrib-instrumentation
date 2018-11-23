@@ -8,23 +8,23 @@ Instrumented components: HttpClient calls, ASP.NET Core, Entity Framework Core a
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Configuration\IOpenTracingBuilder.cs" Link="Contracts\IOpenTracingBuilder.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Configuration\OpenTracingBuilder.cs" Link="Configuration\OpenTracingBuilder.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Configuration\ServiceCollectionExtensions.cs" Link="Configuration\ServiceCollectionExtensions.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticListenerObserver.cs" Link="Diagnostic\DiagnosticListenerObserver.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticManager.cs" Link="Diagnostic\DiagnosticManager.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticManagerOptions.cs" Link="Diagnostic\DiagnosticManagerOptions.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticObserver.cs" Link="Diagnostic\DiagnosticObserver.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\GenericEventProcessor.cs" Link="Diagnostic\GenericEventProcessor.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\GlobalTracerAccessor.cs" Link="Utils\GlobalTracerAccessor.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\PropertyFetcher.cs" Link="Utils\PropertyFetcher.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\IGlobalTracerAccessor.cs" Link="Contracts\IGlobalTracerAccessor.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\SpanExtensions.cs" Link="Extensions\SpanExtensions.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\TracerExtensions.cs" Link="Extensions\TracerExtensions.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Logging\OpenTracingLogger.cs" Link="Logging\OpenTracingLogger.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Logging\OpenTracingLoggerProvider.cs" Link="Logging\OpenTracingLoggerProvider.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\GenericDiagnosticOptions.cs" Link="Bcl\GenericDiagnosticOptions.cs"/>
-    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\GenericDiagnostics.cs" Link="Bcl\GenericDiagnostics.cs"/>
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Configuration\IOpenTracingBuilder.cs" Link="Contracts\IOpenTracingBuilder.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Configuration\OpenTracingBuilder.cs" Link="Configuration\OpenTracingBuilder.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Configuration\ServiceCollectionExtensions.cs" Link="Configuration\ServiceCollectionExtensions.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticListenerObserver.cs" Link="Diagnostic\DiagnosticListenerObserver.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticManager.cs" Link="Diagnostic\DiagnosticManager.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticManagerOptions.cs" Link="Diagnostic\DiagnosticManagerOptions.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\DiagnosticObserver.cs" Link="Diagnostic\DiagnosticObserver.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\GenericEventProcessor.cs" Link="Diagnostic\GenericEventProcessor.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\GlobalTracerAccessor.cs" Link="Utils\GlobalTracerAccessor.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\PropertyFetcher.cs" Link="Utils\PropertyFetcher.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\IGlobalTracerAccessor.cs" Link="Contracts\IGlobalTracerAccessor.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\SpanExtensions.cs" Link="Extensions\SpanExtensions.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Internal\TracerExtensions.cs" Link="Extensions\TracerExtensions.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Logging\OpenTracingLogger.cs" Link="Logging\OpenTracingLogger.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\Logging\OpenTracingLoggerProvider.cs" Link="Logging\OpenTracingLoggerProvider.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\GenericDiagnosticOptions.cs" Link="Bcl\GenericDiagnosticOptions.cs" />
+    <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\CoreFx\GenericDiagnostics.cs" Link="Bcl\GenericDiagnostics.cs" />
     <Compile Include="..\csharp-netcore\src\OpenTracing.Contrib.NetCore\InstrumentationService.cs" />
   </ItemGroup>
 
