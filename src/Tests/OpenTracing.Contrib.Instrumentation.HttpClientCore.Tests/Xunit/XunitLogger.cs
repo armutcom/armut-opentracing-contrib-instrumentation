@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.Extensions.Logging;
 using Xunit.Abstractions;
 
-namespace OpenTracing.Contrib.Instrumentation.Http.Tests.Xunit
+namespace OpenTracing.Contrib.Instrumentation.HttpClientCore.Tests.Xunit
 {
     public class XunitLogger : ILogger
     {

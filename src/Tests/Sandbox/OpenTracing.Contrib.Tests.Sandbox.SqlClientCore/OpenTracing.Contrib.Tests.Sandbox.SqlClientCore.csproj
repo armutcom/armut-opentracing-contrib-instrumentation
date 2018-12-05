@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp2.1;net461</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp2.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Components\OpenTracing.Contrib.Instrumentation.SqlClient\OpenTracing.Contrib.Instrumentation.SqlClient.csproj" />
+    <ProjectReference Include="..\..\..\Components\OpenTracing.Contrib.Instrumentation.SqlClientCore\OpenTracing.Contrib.Instrumentation.SqlClientCore.csproj" />
   </ItemGroup>
 
 </Project>

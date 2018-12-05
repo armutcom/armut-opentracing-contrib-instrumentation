@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace OpenTracing.Contrib.Instrumentation.SqlClient.Configuration
+namespace OpenTracing.Contrib.Instrumentation.SqlClientCore.Configuration
 {
     public static class OpenTracingBuilderExtensions
     {

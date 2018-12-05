@@ -5,10 +5,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using OpenTracing.Contrib.Instrumentation;
-using OpenTracing.Contrib.Instrumentation.SqlClient.Configuration;
+using OpenTracing.Contrib.Instrumentation.SqlClientCore.Configuration;
 using OpenTracing.Util;
 
-namespace OpenTracing.Contrib.Tests.Sandbox.SqlClient
+namespace OpenTracing.Contrib.Tests.Sandbox.SqlClientCore
 {
     class Program
     {

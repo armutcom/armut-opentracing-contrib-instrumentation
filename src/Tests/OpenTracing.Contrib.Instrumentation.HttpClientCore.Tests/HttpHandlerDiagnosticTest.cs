@@ -8,14 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using OpenTracing.Contrib.Instrumentation.Diagnostic;
 using OpenTracing.Contrib.Instrumentation.HttpClientCore.Configuration;
-using OpenTracing.Contrib.Instrumentation.Http.Tests.Xunit.Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.Instrumentation.HttpClientCore;
+using OpenTracing.Contrib.Instrumentation.HttpClientCore.Tests.Xunit.Microsoft.Extensions.Logging;
 using OpenTracing.Mock;
 using OpenTracing.Tag;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace OpenTracing.Contrib.Instrumentation.Http.Tests
+namespace OpenTracing.Contrib.Instrumentation.HttpClientCore.Tests
 {
     [Collection("DiagnosticSource") /* All DiagnosticSource tests must be in the same collection to ensure they are NOT run in parallel. */]
     public class HttpHandlerDiagnosticTest : IDisposable

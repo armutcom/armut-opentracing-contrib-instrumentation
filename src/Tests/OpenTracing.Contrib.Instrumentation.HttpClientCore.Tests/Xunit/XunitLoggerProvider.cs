@@ -1,8 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.Instrumentation.Http.Tests.Xunit;
 using Xunit.Abstractions;
 
-namespace OpenTracing.Contrib.Instrumentation.Http.Tests.Xunit
+namespace OpenTracing.Contrib.Instrumentation.HttpClientCore.Tests.Xunit
 {
     public class XunitLoggerProvider : ILoggerProvider
     {

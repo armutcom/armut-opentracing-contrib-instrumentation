@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Reflection;
 
-namespace OpenTracing.Contrib.Instrumentation.SqlClient
+namespace OpenTracing.Contrib.Instrumentation.SqlClientCore
 {
     public class SqlClientDiagnosticOptions
     {

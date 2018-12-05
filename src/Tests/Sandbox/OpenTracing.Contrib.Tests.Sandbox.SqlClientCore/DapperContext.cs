@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 
-namespace OpenTracing.Contrib.Tests.Sandbox.SqlClient
+namespace OpenTracing.Contrib.Tests.Sandbox.SqlClientCore
 {
     public class DapperContext : IDapperContext
     {

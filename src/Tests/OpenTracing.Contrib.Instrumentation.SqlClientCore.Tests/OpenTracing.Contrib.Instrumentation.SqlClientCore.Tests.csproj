@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Components\OpenTracing.Contrib.Instrumentation.SqlClient\OpenTracing.Contrib.Instrumentation.SqlClient.csproj" />
+    <ProjectReference Include="..\..\Components\OpenTracing.Contrib.Instrumentation.SqlClientCore\OpenTracing.Contrib.Instrumentation.SqlClientCore.csproj" />
   </ItemGroup>
 
 </Project>

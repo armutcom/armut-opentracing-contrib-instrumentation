@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace OpenTracing.Contrib.Instrumentation.SqlClient
+namespace OpenTracing.Contrib.Instrumentation.SqlClientCore
 {
     public class SqlClientDiagnosticEventData
     {

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using OpenTracing.Contrib.Instrumentation.Diagnostic;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.Instrumentation.SqlClient
+namespace OpenTracing.Contrib.Instrumentation.SqlClientCore
 {
     internal class SqlClientDiagnostics : DiagnosticListenerObserver
     {
