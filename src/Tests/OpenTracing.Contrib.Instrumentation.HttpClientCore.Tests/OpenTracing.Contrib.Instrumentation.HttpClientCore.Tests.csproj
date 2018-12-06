@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Components\OpenTracing.Contrib.Instrumentation.Http\OpenTracing.Contrib.Instrumentation.HttpClientCore.csproj" />
+    <ProjectReference Include="..\..\Components\OpenTracing.Contrib.Instrumentation.HttpClientCore\OpenTracing.Contrib.Instrumentation.HttpClientCore.csproj" />
   </ItemGroup>
 
 </Project>
