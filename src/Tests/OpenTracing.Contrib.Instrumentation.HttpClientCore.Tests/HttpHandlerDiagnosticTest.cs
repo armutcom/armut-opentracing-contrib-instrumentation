@@ -185,7 +185,7 @@ namespace OpenTracing.Contrib.Instrumentation.HttpClientCore.Tests
             Assert.Empty(_tracer.FinishedSpans());
         }
 
-      //  [Fact]
+        [Fact]
         public async Task Calls_Options_OperationNameResolver()
         {
             _options.OperationNameResolver = _ => "foo";
