@@ -44,10 +44,10 @@ Task("Test")
         settings.Configuration = configuration;
 
         string appveyor = EnvironmentVariable("APPVEYOR");
-        if(!string.IsNullOrEmpty(appveyor) && appveyor == "True")
-        {
-            settings.ArgumentCustomization  = args => args.Append(" --test-adapter-path:. --logger:Appveyor");
-        }
+        // if(!string.IsNullOrEmpty(appveyor) && appveyor == "True")
+        // {
+        //     settings.ArgumentCustomization  = args => args.Append(" --test-adapter-path:. --logger:Appveyor");
+        // }
 
         IList<TestProjMetadata> testProjMetadatas = GetProjMetadatas();
 
@@ -59,6 +59,12 @@ Task("Test")
            {
                 Information($"Running {targetFramework.ToUpper()} tests for {testProj.AssemblyName}");
                 settings.Framework = targetFramework;
+
+                // Temporary workaround. See https://github.com/armutcom/armut-opentracing-contrib-instrumentation/issues/1
+                if(appveyor == "True")
+                {
+                    continue;
+                }
 
                 if(IsRunningOnUnix() && targetFramework == "net461")
                 {
