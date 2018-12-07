@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
-    <Description>Adds OpenTracing instrumentation for System.Data.SqlClient.</Description>
+    <Description>Adds OpenTracing instrumentation for System.Data.SqlClient. ADO.NET</Description>
     <PackageTags>opentracing, distributed-tracing, tracing, sqlclient, sql, connector, netcore</PackageTags>
   </PropertyGroup>
 

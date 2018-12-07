@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <Description>Adds OpenTracing instrumentation for .NET Core apps that use the `Microsoft.Extensions.*` stack.
-Instrumented components: HttpClient calls, ASP.NET Core, Entity Framework Core and any other library that uses DiagnosticSource events.</Description>
+    <Description>This is the core instrumentation library that includes base classes which can be use to built new instrumentation components that uses DiagnosticSource events. 
+      Adds OpenTracing instrumentation for .NET Core BCL</Description>
     <PackageTags>opentracing;distributed-tracing;tracing;netcore</PackageTags>
 
     <!-- When compiling .NET SDK 2.0 projects targeting .NET 4.x on Mono using 'dotnet build' you -->
